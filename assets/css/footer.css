@@ -1,0 +1,49 @@
+/* Footer Styles */
+footer {
+    background-color: #282c34; /* Match the header color */
+    padding: 20px 10px;
+    color: white;
+    border-top: 2px solid #61dafb; /* Accent border */
+}
+
+/* Footer Container */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+/* Footer Logo */
+.footer-logo img {
+    max-height: 50px;
+}
+
+/* Footer Links */
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #61dafb; /* Hover effect */
+}
+
+/* Footer Info */
+.footer-info p {
+    margin: 0;
+    font-size: 14px;
+}
